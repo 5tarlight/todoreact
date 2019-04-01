@@ -14,7 +14,7 @@ interface State {
   input: string
 }
 
-class TodoList extends React.Component<Props, State> {
+class TodoList extends Component<Props, State> {
   id: number = 0
 
   state: State = {
