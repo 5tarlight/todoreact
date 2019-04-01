@@ -1,9 +1,12 @@
 import React from 'react'
+import Profile from '../components/Profile'
 
-const About = () => {
+interface Props {}
+
+const About: React.FunctionComponent<Props> = () => {
   return (
     <div>
-      <h2>About</h2>
+      <Profile name='Starlight' job='Developer'></Profile>
     </div>
   )
 }
